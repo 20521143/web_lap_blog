@@ -1,5 +1,41 @@
 
-
 body {
     background-image: url('images/yellow_background.png')
+    
 }
+h1 {
+    text-transform: capitalize
+}
+/* this banner section */
+.banner_container {
+    position: relative;
+}
+
+.banner_container > .containt {
+  position: absolute;
+  bottom: 0;
+  /*background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(62, 60, 60, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  height:5%;
+}
+.banner_container > .containt > .button {
+    background-color: red;
+    color:white;
+    left: 900px;
+    margin-right:20px;
+}
+.banner_container img {
+    position: relative;
+
+    box-shadow: 5px 5px 5px black ;
+    border-radius: 1%;
+}
+#description_banner {
+    color: aliceblue;
+ 
+
+}
+
