@@ -41,6 +41,7 @@ p {
 
 #main_wrapper {
   padding: 8px 32px;
+
 }
 
 /* HEADER */
@@ -92,4 +93,58 @@ header nav ul li a {
   color: currentColor;
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+/* BODY */
+article, aside
+{
+    text-align: justify;
+}
+section{
+  display: flex; 
+  justify-content: space-between; 
+
+}
+article
+{
+    margin-right: 15px;
+    flex-basis: 60%;
+    font-family:"Trebuchet MS" ;
+}
+
+aside
+{
+    position: relative;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+    flex-basis: 30%;
+    font-family: Helvetica}
+
+#arrow
+{
+    position: absolute;
+    top: 100px;
+    left: -12px;
+}
+
+aside #img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.social{
+  display: flex;
+  justify-content: space-between;
+}
+.social img {
+  flex-basis: 15%;
+}
+.h1_tlt {
+  padding:10px ;
 }
