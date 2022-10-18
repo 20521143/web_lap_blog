@@ -157,6 +157,10 @@ header nav ul li a {
   font-size: 1.5rem;
   font-weight: 400;
 }
+header li:hover {
+  background-color: blue;
+  color: red;
+}
 
 /* BODY */
 article, aside
@@ -243,8 +247,7 @@ footer
 
 }
 
-#list_friends ul 
-{
+#list_friends ul {
   display: inline-block;
   margin-top: 0px;
   margin-left: 10px;
