@@ -1,20 +1,21 @@
-
 <!DOCTYPE html>
 <html lang='en'>
     <head>
-        <meta charset='utf8'/>
-         <link rel="stylesheet" href="styles.css">
+        <meta charset='utf8' />
+        <link rel="stylesheet" href="styles.css">
         <title>Zozor - Travel diaries</title>
-       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div id='main_wrapper'>
             <header>
-                <div id ="main title">
-                    <h1><img src="images/zozor_logo.png" alt="zoror logo">Zoror</h1>
+                <div id="main_title">
+                    <div class="logo">
+                        <img src="images/zozor_logo.png" alt="zoror logo">
+                        <h1>Zoror</h1>
+                    </div>
                     <p>Travel diaries</p>
                 </div>
-
                 <nav>
                     <ul>
                         <li><a href="#">home</a></li>
@@ -22,73 +23,85 @@
                         <li><a href="#">Resume</a></li>
                         <li><a href="#">Contacts</a></li>
                     </ul>
-
                 </nav>
             </header>
+
 
             <div class='banner_container'>
                 <img src="images/sanfrancisco.jpg" alt="image header" style='width:100%' >
                 <div class='containt'>
                     <div id='description_banner'>Refelection in my holiday... </div>
-                    <!-- <a class='button' href="#">See article <img src="images/external_link.png" alt="image buttun"></a> -->
-                    <button class='button'></button>
+                    <a class='button' href="#">See article <img src="images/small_arrow.png" alt="image buttun"></a>
                 </div>
             </div>
 
-            <section>
-                <article>   
-                    <h1><img src="images/pin.png" alt="zotor pin">I'm a greate traveller</h1>
-                    <p>Lorem isump dolor </p>
-                    <p>arcu lorem, et samper purus. Cum</p>
-                    <p>ridicilous mus. Duis vel enim</p>
-                   
+            
+
+            <section >
+                <article>
+                    <div style="display: flex;">
+                        <img src="images/pin.png" alt="zotor pin" >
+                        <h1 class="h1_tlt">I'M A GREAT TRAVELLER</h1>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+                    <br>
+                    <p>Vivamus sed libero nec mauris pulvinar facilisis ut non sem. Quisque mollis ullamcorper diam vel faucibus. Vestibulum sollicitudin facilisis feugiat. Nulla euismod sodales hendrerit. Donec quis orci arcu. Vivamus fermentum magna a erat ullamcorper dignissim pretium nunc aliquam. Aenean pulvinar condimentum enim a dignissim. Vivamus sit amet lectus at ante adipiscing adipiscing eget vitae felis. In at fringilla est. Cras id velit ut magna rutrum commodo. Etiam ut scelerisque purus. Duis risus elit, venenatis vel rutrum in, imperdiet in quam. Sed vestibulum, libero ut bibendum consectetur, eros ipsum ultrices nisl, in rutrum diam augue non tortor. Fusce nec massa et risus dapibus aliquam vitae nec diam.</p>
+                    <br>
+                    <p>Phasellus ligula massa, congue ac vulputate non, dignissim at augue. Sed auctor fringilla quam quis porttitor. Praesent vitae dignissim magna. Pellentesque quis sem purus, vel elementum mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas consectetur euismod urna. In hac habitasse platea dictumst. Quisque tincidunt porttitor vestibulum. Ut iaculis, lacus at molestie lacinia, ipsum mi adipiscing ligula, vel mollis sem risus eu lectus. Nunc elit quam, rutrum ut dignissim sit amet, egestas at sem.</p>
+
                 </article>
                 <aside>
                     <h1> ABOUT THE AUTHOR </h1>
-                    <p><img src="images/zozor.png" alt="zoror image"></p>
-                    <p>Let me introduce myself: My name's Zoror. I was born on 23 November... </p>
-                    <p> A bit message, it is not ? this is why i decided to write biography to let my readres know who really I am</p>
-                    <p> 
-                        <img src="images/facebook.png" alt="facebook">
+                    <img src="images/arrow.png" alt="" id="arrow" />
+                    <p >
+                        <img src="images/zozor.png" alt="zoror images" id="img" >
+                    </p>
+                    <p>Let me introduce myself: My name's Zozor. I was born on 23 November 2005.</p>
+                    <br>
+                    <p>A bit meager, is it not? This is why I've now decided to write my biography to let my readers know who I really am.</p>
+                    <br>
+                    <div class="social">
+                        <img src="images/facebook.png" alt="facebook" >
                         <img src="images/twitter.png" alt="Twitter">
                         <img src="images/vimeo.png" alt="Vimeo">
                         <img src="images/flickr.png" alt="flickr">
                         <img src="images/rss.png" alt="rss">
-                     </p>
+                    </div>
+                    
                 </aside>
-
             </section>
-            <footer>
-                <img src="images/line.png" alt="line image">
-                <div id ="twitter">
-                    <h1>MY LAST TWEET</h1>
-                    <p>Hee-haw!</p>
-                    <p>12/05 23:12</p>
-                </div>
-                <div id = "picture">
-                    <h1>MY PICTURE</h1>
-                    <img src="images/pic1.jpg" alt="">
-                    <img src="images/pic2.jpg" alt="">
-                    <img src="images/pic3.jpg" alt="">
-                    <img src="images/pic4.jpg" alt="">
-                </div>
-                <div id="list_friends">
-                    <h1>MY FRIEND</h1>
-                    <ul>
-                        <li><a href="#">pupi the rabbit</a></li>
-                        <li><a href="#">Mr bao lap</a></li>
-                        <li><a href="#">Kaiwaii</a></li>
-                        <li><a href="#">perceval.edu</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="#">Ji</a></li>
-                        <li><a href="#">Super cucumber</a></li>
-                        <li><a href="#">Prince</a></li>
-                        <li><a href="#">Mr Fan</a></li>
-                    </ul>
-                </div>
-            </footer>
+        
+        <footer>
+            <div id="twitter">
+                <h1>MY LAST TWEET</h1>
+                <p>Hee-haw!</p>
+                <p>12/05 23:12</p>
+            </div>
+            <div id="picture">
+                <h1>MY PICTURE</h1>
+                <img src="images/pic1.jpg" alt="">
+                <img src="images/pic2.jpg" alt="">
+                <img src="images/pic3.jpg" alt="">
+                <img src="images/pic4.jpg" alt="">
+            </div>
+            <div id="list_friends">
+                <h1>MY FRIEND</h1>
+                <ul>
+                    <li><a href="#">pupi the rabbit</a></li>
+                    <li><a href="#">Mr bao lap</a></li>
+                    <li><a href="#">Kaiwaii</a></li>
+                    <li><a href="#">perceval.edu</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Ji</a></li>
+                    <li><a href="#">Super cucumber</a></li>
+                    <li><a href="#">Prince</a></li>
+                    <li><a href="#">Mr Fan</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
 
-        </div>
-    </body>
-</html>
+
+
